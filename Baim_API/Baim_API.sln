@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baim_API", "Baim_API\Baim_API.csproj", "{3D30C0EB-16BA-4F25-A764-83155ECD9D7D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8CD17E41-FAB6-43D8-A3A4-C6A723BEBC42} = {8CD17E41-FAB6-43D8-A3A4-C6A723BEBC42}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB", "DB\DB.csproj", "{8CD17E41-FAB6-43D8-A3A4-C6A723BEBC42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D30C0EB-16BA-4F25-A764-83155ECD9D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D30C0EB-16BA-4F25-A764-83155ECD9D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D30C0EB-16BA-4F25-A764-83155ECD9D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D30C0EB-16BA-4F25-A764-83155ECD9D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD17E41-FAB6-43D8-A3A4-C6A723BEBC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD17E41-FAB6-43D8-A3A4-C6A723BEBC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD17E41-FAB6-43D8-A3A4-C6A723BEBC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD17E41-FAB6-43D8-A3A4-C6A723BEBC42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B573FB80-F6EE-4F44-8E47-FF76B4571F3D}
+	EndGlobalSection
+EndGlobal

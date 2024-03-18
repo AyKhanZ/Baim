@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Baim_API.props" />
+</Project>
