@@ -86,3 +86,4 @@ D:\Baim Project\Baim_API\Baim_API\bin\Debug\net7.0\Microsoft.Extensions.Dependen
 D:\Baim Project\Baim_API\Baim_API\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\Baim Project\Baim_API\Baim_API\bin\Debug\net7.0\System.CodeDom.dll
 D:\Baim Project\Baim_API\Baim_API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Baim Project\Baim_API\Baim_API\bin\Debug\net7.0\Properties\launchSettings.json
