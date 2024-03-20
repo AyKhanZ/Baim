@@ -1,7 +1,9 @@
+using Bussines.Services.Classes;
 using DB.DbContexts;
 using DB.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -43,6 +45,8 @@ builder.Services.AddAuthentication(options =>
 
 	};
 });
+
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 
 var app = builder.Build();
 

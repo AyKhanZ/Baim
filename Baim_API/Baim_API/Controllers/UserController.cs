@@ -1,6 +1,7 @@
 ﻿using DB.DbContexts;
 using DB.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -35,19 +36,22 @@ public class UserController : ControllerBase
 	private readonly SignInManager<AspNetUser> _signInManager;
 	private readonly IUserStore<AspNetUser> _userStore;
 	private readonly IConfiguration _configuration;
+	private readonly IEmailSender _emailSender;
 
 	// role manager add 
 	public UserController(BaimContext dbContext,
 		UserManager<AspNetUser> userManager,
 		IUserStore<AspNetUser> userStore,
 		SignInManager<AspNetUser> signInManager,
-		IConfiguration configuration)
+		IConfiguration configuration,
+		IEmailSender emailSender)
 	{
 		_dbContext = dbContext;
 		_userManager = userManager;
 		_userStore = userStore;
 		_signInManager = signInManager;
 		_configuration = configuration;
+		_emailSender = emailSender;
 	}
 
 
@@ -98,7 +102,11 @@ public class UserController : ControllerBase
 
 		if (result.Succeeded)
 		{
-			//await CreateUserShoppingCart(newUser.Id);
+			// Отправьте подтверждение по электронной почте
+			var token = await _userManager.GenerateEmailConfirmationTokenAsync(newUser);
+			var confirmationLink = Url.Action("ConfirmEmail", "Account", new { userId = newUser.Id, token = token }, Request.Scheme);
+			await _emailSender.SendEmailAsync(newUser.Email, "Подтверждение регистрации", $"Пожалуйста, подтвердите свою регистрацию, перейдя по ссылке: {confirmationLink}");
+
 			var tokenString = GenerateTokenString(newUser);
 			// adding roles
 			await _dbContext.SaveChangesAsync();

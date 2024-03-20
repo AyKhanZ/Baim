@@ -1,0 +1,14 @@
+D:\Baim Project\Baim_API\DB\bin\Release\net7.0\DB.deps.json
+D:\Baim Project\Baim_API\DB\bin\Release\net7.0\DB.runtimeconfig.json
+D:\Baim Project\Baim_API\DB\bin\Release\net7.0\DB.dll
+D:\Baim Project\Baim_API\DB\bin\Release\net7.0\DB.pdb
+D:\Baim Project\Baim_API\DB\obj\Release\net7.0\DB.csproj.AssemblyReference.cache
+D:\Baim Project\Baim_API\DB\obj\Release\net7.0\DB.GeneratedMSBuildEditorConfig.editorconfig
+D:\Baim Project\Baim_API\DB\obj\Release\net7.0\DB.AssemblyInfoInputs.cache
+D:\Baim Project\Baim_API\DB\obj\Release\net7.0\DB.AssemblyInfo.cs
+D:\Baim Project\Baim_API\DB\obj\Release\net7.0\DB.csproj.CoreCompileInputs.cache
+D:\Baim Project\Baim_API\DB\obj\Release\net7.0\DB.dll
+D:\Baim Project\Baim_API\DB\obj\Release\net7.0\refint\DB.dll
+D:\Baim Project\Baim_API\DB\obj\Release\net7.0\DB.pdb
+D:\Baim Project\Baim_API\DB\obj\Release\net7.0\DB.genruntimeconfig.cache
+D:\Baim Project\Baim_API\DB\obj\Release\net7.0\ref\DB.dll

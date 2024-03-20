@@ -1361,6 +1361,19 @@
           }
         }
       },
+      "Bussines/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "7.0.17"
+        },
+        "compile": {
+          "bin/placeholder/Bussines.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bussines.dll": {}
+        }
+      },
       "DB/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3961,6 +3974,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Bussines/1.0.0": {
+      "type": "project",
+      "path": "../Bussines/Bussines.csproj",
+      "msbuildProject": "../Bussines/Bussines.csproj"
+    },
     "DB/1.0.0": {
       "type": "project",
       "path": "../DB/DB.csproj",
@@ -3969,6 +3987,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Bussines >= 1.0.0",
       "DB >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.17",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.17",
@@ -4014,6 +4033,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "D:\\Baim Project\\Baim_API\\Bussines\\Bussines.csproj": {
+              "projectPath": "D:\\Baim Project\\Baim_API\\Bussines\\Bussines.csproj"
+            },
             "D:\\Baim Project\\Baim_API\\DB\\DB.csproj": {
               "projectPath": "D:\\Baim Project\\Baim_API\\DB\\DB.csproj"
             }

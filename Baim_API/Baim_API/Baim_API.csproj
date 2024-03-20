@@ -30,12 +30,13 @@
 	</ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Bussines\Bussines.csproj" />
     <ProjectReference Include="..\DB\DB.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <None Update="Properties\launchSettings.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   
