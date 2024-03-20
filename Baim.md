@@ -1,6 +1,7 @@
 # BAIM
-* BD Entity Framework
+* BD Entity Framework & MSSQL
 * APIs on ASP.NET
+* 3.JS
 * NEXT JS
 * Mongo DB
 	
