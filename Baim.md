@@ -46,6 +46,8 @@
 		
 * Footer
 	Google map
+	![image](https://github.com/AyKhanZ/Baim/assets/110285172/4de77bab-ae46-458f-b39f-af291e8ee988)
+
 	
 * SEO (NEXT JS)
 	
