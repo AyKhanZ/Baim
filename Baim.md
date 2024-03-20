@@ -36,8 +36,7 @@
 	
 * Клиенты(карусель)
 	* отдельная страница с их лого,кто они такие,что мы для них сделали(проекты),руководитель со стороны клиента и со стороны BAIM к этому проекту ,линки на ютуб,feedback клента
-![image](https://github.com/AyKhanZ/Baim/assets/110285172/30eeef3e-7578-475d-a701-a825913dac7b)
-![image](https://github.com/AyKhanZ/Baim/assets/110285172/fb3e9ca7-11f0-4bf6-9976-ec4c79541188)
+![image](https://github.com/AyKhanZ/Baim/assets/110285172/30eeef3e-7578-475d-a701-a825913dac7b) 
 
 
 		
