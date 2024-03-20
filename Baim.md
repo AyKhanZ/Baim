@@ -77,6 +77,9 @@
 	добавить других пользователей и им на почту придет приглашение(5 чел + (кнопка +1))
 	При добавлении чела (Имя ,Фамилия и почта)
 	![image](https://github.com/AyKhanZ/Baim/assets/110285172/866c925b-4211-44a1-a3f0-6b6b04db4ca8)
+	![image](https://github.com/AyKhanZ/Baim/assets/110285172/010a5ae2-d1c3-4940-8a8a-70dbf8b734f6)
+
+
 
 		
 * RU AZ EN контенты
@@ -130,6 +133,8 @@
 			
 			
 # 3) HTML письмо
+![image](https://github.com/AyKhanZ/Baim/assets/110285172/d391cff3-5be8-449e-bac1-be77fb64599e)
+
 
 ## Мои вопросы:
 * 1)При создании Project какие есть права у Users/Employers
