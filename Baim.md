@@ -6,6 +6,8 @@
 	
 # 1)Сайт везитка
 * News[IsInBannegr(true/false)] - (Contact home)
+![image](https://github.com/AyKhanZ/Baim/assets/110285172/5067542b-6e20-4dc0-8209-bd3e7d34dd51)
+
 	
 * Partners("С нами уже работают")(карусель)
 	* отдельная страница с их лого,кто они такие
