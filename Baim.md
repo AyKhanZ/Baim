@@ -54,8 +54,9 @@
 
 	
 * Здравствуйте мы можем вам помочь !
-  
-![image](https://github.com/AyKhanZ/Baim/assets/110285172/010caf65-4dc7-422a-8664-5e3d5be7931e)
+
+  ![image](https://github.com/AyKhanZ/Baim/assets/110285172/9a456b22-98a6-4b23-a676-56d98e535a02)
+
 
 	
 * Продукты кубик рубик
